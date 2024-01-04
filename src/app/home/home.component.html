@@ -1,0 +1,9 @@
+<div class="container">
+    <div *ngIf="loggedIn">
+        <h1>Welcome {{userName}} </h1>
+    </div>
+
+    <div *ngIf="!loggedIn">
+        <h1>Please Login to Continue</h1>
+    </div>
+</div>
